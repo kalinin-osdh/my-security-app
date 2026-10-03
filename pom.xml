@@ -27,4 +27,11 @@
         <module>product-service</module>
         <module>auth-service</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-liquibase</artifactId>
+        </dependency>
+    </dependencies>
 </project>
